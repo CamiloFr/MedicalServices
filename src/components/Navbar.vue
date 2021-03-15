@@ -17,11 +17,12 @@
   </b-navbar>
   <b-navbar toggleable="lg" variant="info" type="dark">
     <b-navbar-toggle target="menu2"></b-navbar-toggle>
-    <b-collapse id="menu2" is-nav>
-     <b-navbar-nav class="d-flex flex-row">
-        <b-navbar-nav class="d-flex justify-content-center">
-            <b-nav-item href="#">Medicos</b-nav-item>
-            <b-nav-item href="#">Usuarios</b-nav-item>
+    <b-collapse id="menu2" class="d-flex justify-content-center" is-nav>
+     <b-navbar-nav>
+        <b-navbar-nav>
+            <b-nav-item href="#">Inicio</b-nav-item>
+            <b-nav-item href="#">Servicios</b-nav-item>
+            <b-nav-item href="#">Quienes somos</b-nav-item>
         </b-navbar-nav>
      </b-navbar-nav>
     </b-collapse>
