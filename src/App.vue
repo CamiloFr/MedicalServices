@@ -2,22 +2,23 @@
   <div id="app">
     <Navbar/>
     <Slider/>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
 import Slider from './components/Carousel.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    HelloWorld,
-    Slider
+    // HelloWorld,
+    Slider,
+    Footer
   }
 }
 </script>

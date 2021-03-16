@@ -53,17 +53,27 @@
       </b-carousel-slide>
     </b-carousel>
 
-    <p class="mt-4">
-      Slide #: {{ slide }}<br>
-      Sliding: {{ sliding }}
-    </p>
     <div class="d-flex justify-content-around" style="font-size: 4rem;">
         <div>
-
+          <b-icon icon="telephone-fill" class="border border-info rounded p-2" variant="info">
+          </b-icon>
+          <p style="font-size: 1rem;">Asesoria</p>
         </div>
-        <b-icon icon="card-checklist" class="border border-info rounded p-2" variant="info">
-        </b-icon>
-        <b-icon-exclamation-triangle-fill></b-icon-exclamation-triangle-fill>
+        <div>
+          <b-icon icon="sun" class="border border-info rounded p-2" variant="info">
+          </b-icon>
+          <p style="font-size: 1rem;">Beneficios</p>
+        </div>
+        <div>
+          <b-icon icon="display" class="border border-info rounded p-2" variant="info">
+          </b-icon>
+          <p style="font-size: 1rem;">Como funciona?</p>
+        </div>
+        <div>
+          <b-icon icon="gem" class="border border-info rounded p-2" variant="info">
+          </b-icon>
+          <p style="font-size: 1rem;">Precios</p>
+        </div>
     </div>
   </div>
 </template>
